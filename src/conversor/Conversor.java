@@ -42,8 +42,6 @@ public class Conversor {
 		Distancias yarda = new Distancias ("yarda", "yd", 1.09);
 		Distancias milla = new Distancias ("milla", "mi", 0.0006214);
 		
-		JOptionPane.showMessageDialog(null, "Creado por:\nMiguel Lizarzado", "Creador", 1);
-		
 		String[] tipo = {"Conversor de Divisas", "Conversor de distancias"}; 
 				String seleccion = (String) JOptionPane.showInputDialog(
 						null, 
@@ -210,6 +208,8 @@ public class Conversor {
 			JOptionPane.showMessageDialog(null, cantidad + " " + origen
 			+ " convertidos en " + destino + " da un total de " +
 					resultadoFormateado + " " + destino, "Resultado", 1);
+
+			JOptionPane.showMessageDialog(null, "Creado por:\nMiguel Lizarzado", "Creador", 1);
 						
 		}
 				
