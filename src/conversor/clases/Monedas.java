@@ -1,17 +1,17 @@
-package conversor;
+package conversor.clases;
 
-public class Distancias {
+public class Monedas {
 	
 	private String nombre;
 	private String simbolo;
 	private double valor;
 	
-	public Distancias(String nombre, String simbolo, double valor) {
+	public Monedas(String nombre, String simbolo, double valor) {
 		this.nombre = nombre;
 		this.simbolo = simbolo;
 		this.valor = valor;
 	}
-	
+
 	public String getNombre() {
 		return nombre;
 	}
@@ -31,5 +31,6 @@ public class Distancias {
 	public double dividir(double numero) {
 		return this.valor / numero;
 	}
+	  
 
 }
