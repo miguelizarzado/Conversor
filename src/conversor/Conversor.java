@@ -38,7 +38,7 @@ public class Conversor {
 		//----------------DISTANCIAS----------------------
 		Distancias kilometro = new Distancias ("kilometro", "km", 0.001);
 		Distancias metro = new Distancias ("metro", "m", 1);
-		Distancias centimetro = new Distancias ("centimetro", "cm", 1);
+		Distancias centimetro = new Distancias ("centimetro", "cm", 100);
 		Distancias milimetro = new Distancias ("milimetro", "mm", 1000);
 		
 		boolean repetir = true;
